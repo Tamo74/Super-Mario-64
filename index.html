@@ -10,34 +10,62 @@
     <h1>Super Mario 64</h1>
 
     <br>
-    <!-- Navigation Bar -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Super Mario 64</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="gameplay.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Gameplay 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="gameplay.html#controls">Controls</a></li>
+                  <li><a class="dropdown-item" href="gameplay.html#power-ups">Power Ups</a></li>
+                  <li><a class="dropdown-item" href="gameplay.html#objectives">Setting and Objective</a></li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gameplay.html">Gameplay</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="development.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Development 
+                </a>
+                <ul class="dropdown-menu">
+                  <li> <a href="#realease" class="dropdown-item">Realease</a> </li>
+                  <li><a class="dropdown-item" href="development.html#ads">Advertising and sales</a></li>
+                  <li><a class="dropdown-item" href="development.html#64 Ds">Super Mario 64 DS</a></li>
+                  <li><a class="dropdown-item" href="development.html#others">Other Re-realeases</a></li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="development.html">Development</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="reception.html">Reception</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="legacy.html">Legacy</a>
-              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="reception.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Reception 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="reception.html#review">Critical review</a></li>
+                  <li><a class="dropdown-item" href="reception.html#awards">Awards</a></li>
+                </ul>
+                   
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="legacy.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Legacy 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="legacy.html#influence">Influence</a></li>
+                  <li><a class="dropdown-item" href="legacy.html#successors">Successors</a></li>
+                  <li><a class="dropdown-item" href="legacy.html#rumors">Rumors, Conspiracy Theories, and Glitches</a></li>
+                  <li><a class="dropdown-item" href="legacy.html#projects">Fan Projects</a></li>
+                  <li><a class="dropdown-item" href="legacy.html#decompilation">Decompilation</a></li>
+                  <li><a class="dropdown-item" href="legacy.html#medical">Medical Literature</a></li>
+                </ul>
+                <li class="nav-item dropdown">
+                
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
