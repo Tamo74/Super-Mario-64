@@ -16,3 +16,7 @@ h1, h2, h3 {
 nav.navbar {
     box-shadow: 0 2px 4px #212529;
 }
+
+body, main, section, h1, h2, h3 {
+    text-align: left !important;
+}
