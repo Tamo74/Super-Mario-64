@@ -12,3 +12,7 @@ h1, h2, h3 {
     border-bottom: 1px solid #dddddd;
     padding-bottom: 0.25rem;
 }
+
+nav.navbar {
+    box-shadow: 0 2px 4px #212529;
+}
